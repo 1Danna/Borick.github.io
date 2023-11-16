@@ -1,0 +1,84 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.conteiner{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.header{
+    width: 100%;
+    color: #e3f3fd;
+    padding: 20px;
+    background: #7689cd;
+    box-sizing: border-box;
+}
+
+.menu-item{
+    list-style: none;
+}
+
+.menu-link{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.banner-title ,.banner-description{
+text-align: center;
+color: white;
+}
+
+.banner-title{
+    font-size: 48px;
+}
+
+.banner-section{
+    padding: 100px 0;
+    background: url(картинки/загруженное\ \(3\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* PICTURE */
+
+.picture-section{
+    padding: 50px 0px;
+}
+
+.picture-title{
+    color:#7986cd;
+    text-align: center;
+}
+
+.card{
+    padding: 25px;
+    margin-top: 25px;
+    width:53%;
+    background:#90caf9;
+    box-shadow: 0px 0px 10px #7e57c2;
+    text-align: center;
+}
+
+.cart-button{
+    text-align: center;
+    background:white;
+    padding:  10px 70px;
+    border-radius: 10px;
+}
+
+.card:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-title, card-text{
+    margin-bottom: 10px;
+}
